@@ -1,0 +1,5 @@
+C:\Users\Connor\Documents\Visual Studio 2017\Projects\Advent\2\2\bin\Debug\2.exe.config
+C:\Users\Connor\Documents\Visual Studio 2017\Projects\Advent\2\2\bin\Debug\2.exe
+C:\Users\Connor\Documents\Visual Studio 2017\Projects\Advent\2\2\bin\Debug\2.pdb
+C:\Users\Connor\Documents\Visual Studio 2017\Projects\Advent\2\2\obj\Debug\2.exe
+C:\Users\Connor\Documents\Visual Studio 2017\Projects\Advent\2\2\obj\Debug\2.pdb

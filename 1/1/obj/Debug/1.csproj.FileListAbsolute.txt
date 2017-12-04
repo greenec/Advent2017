@@ -1,0 +1,6 @@
+C:\Users\Connor\Documents\Visual Studio 2017\Projects\Advent\1\1\bin\Debug\1.exe.config
+C:\Users\Connor\Documents\Visual Studio 2017\Projects\Advent\1\1\bin\Debug\1.exe
+C:\Users\Connor\Documents\Visual Studio 2017\Projects\Advent\1\1\bin\Debug\1.pdb
+C:\Users\Connor\Documents\Visual Studio 2017\Projects\Advent\1\1\obj\Debug\1.csprojResolveAssemblyReference.cache
+C:\Users\Connor\Documents\Visual Studio 2017\Projects\Advent\1\1\obj\Debug\1.exe
+C:\Users\Connor\Documents\Visual Studio 2017\Projects\Advent\1\1\obj\Debug\1.pdb
