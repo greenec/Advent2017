@@ -1,0 +1,7 @@
+C:\Users\eahscs\Documents\GitHub\Advent2017\4\4\obj\Debug\4.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\Advent2017\4\4\obj\Debug\4.csproj.CoreCompileInputs.cache
+C:\Users\eahscs\Documents\GitHub\Advent2017\4\4\bin\Debug\4.exe.config
+C:\Users\eahscs\Documents\GitHub\Advent2017\4\4\bin\Debug\4.exe
+C:\Users\eahscs\Documents\GitHub\Advent2017\4\4\bin\Debug\4.pdb
+C:\Users\eahscs\Documents\GitHub\Advent2017\4\4\obj\Debug\4.exe
+C:\Users\eahscs\Documents\GitHub\Advent2017\4\4\obj\Debug\4.pdb
