@@ -1,0 +1,6 @@
+C:\Users\Connor\Documents\GitHub\Advent2017\6\6\bin\Debug\6.exe.config
+C:\Users\Connor\Documents\GitHub\Advent2017\6\6\bin\Debug\6.exe
+C:\Users\Connor\Documents\GitHub\Advent2017\6\6\bin\Debug\6.pdb
+C:\Users\Connor\Documents\GitHub\Advent2017\6\6\obj\Debug\6.csprojResolveAssemblyReference.cache
+C:\Users\Connor\Documents\GitHub\Advent2017\6\6\obj\Debug\6.exe
+C:\Users\Connor\Documents\GitHub\Advent2017\6\6\obj\Debug\6.pdb
