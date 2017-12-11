@@ -10,50 +10,12 @@ namespace _3
     {
         static void Main(string[] args)
         {
-            var items = new Dictionary<int, Dictionary<int, int>>();
+            var grid = new Grid();
 
-            items = addToGrid(items, 3, 4, 73);
-
-            for (int j = 0; j < 5; j++)
-            {
-                for (int i = 0; i < 4; i++)
-                {
-                    if (items.ContainsKey(i) && items[i].ContainsKey(j))
-                    {
-                        Console.Write(items[i][j] + " ");
-                    }
-                    else
-                    {
-                        Console.Write("0 ");
-                    }
-                }
-                Console.WriteLine();
-            }
+            grid.add(3, 4, 73);
+            grid.draw();
 
             Console.ReadLine();
-
-            /* while (true)
-            {
-                int input = int.Parse(Console.ReadLine());
-                Console.WriteLine(distance(input));
-            } */
-        }
-
-        static Dictionary<int, Dictionary<int, int>> addToGrid(Dictionary<int, Dictionary<int, int>> dict, int x, int y, int val)
-        {
-            if (dict.ContainsKey(x))
-            {
-                if (!dict.ContainsKey(y))
-                {
-                    dict[x].Add(y, val);
-                }
-            }
-            else
-            {
-                dict.Add(x, new Dictionary<int, int> { { y, val } });
-            }
-
-            return dict;
         }
 
         static int distance(int n)
