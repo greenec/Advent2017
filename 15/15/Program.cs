@@ -20,7 +20,7 @@ namespace _15
         static int part1(int iterations)
         {
             int count = 0;
-            BigInteger a = 277, b = 349;
+            long a = 277, b = 349;
 
             for (int i = 0; i < iterations; i++)
             {
@@ -39,7 +39,7 @@ namespace _15
         static int part2(int iterations)
         {
             int count = 0;
-            BigInteger a = 277, b = 349;
+            long a = 277, b = 349;
 
             for(int i = 0; i < iterations; i++)
             {
