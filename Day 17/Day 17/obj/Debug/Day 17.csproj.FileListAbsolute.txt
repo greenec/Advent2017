@@ -1,0 +1,6 @@
+C:\Users\Connor\Documents\GitHub\Advent2017\Day 17\Day 17\bin\Debug\Day 17.exe.config
+C:\Users\Connor\Documents\GitHub\Advent2017\Day 17\Day 17\bin\Debug\Day 17.exe
+C:\Users\Connor\Documents\GitHub\Advent2017\Day 17\Day 17\bin\Debug\Day 17.pdb
+C:\Users\Connor\Documents\GitHub\Advent2017\Day 17\Day 17\obj\Debug\Day 17.csprojResolveAssemblyReference.cache
+C:\Users\Connor\Documents\GitHub\Advent2017\Day 17\Day 17\obj\Debug\Day 17.exe
+C:\Users\Connor\Documents\GitHub\Advent2017\Day 17\Day 17\obj\Debug\Day 17.pdb
