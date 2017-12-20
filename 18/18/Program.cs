@@ -12,24 +12,24 @@ namespace _18
         static void Main(string[] args)
         {
             String[] instructions = File.ReadAllLines("../../Input.txt");
-            Dictionary<String, int> registers = new Dictionary<String, int>();
-            int lastPlayedFreq = 0;
+            Dictionary<String, long> registers = new Dictionary<String, long>();
+            long lastPlayedFreq = 0;
 
             // initialize registers if not an integer
             for (int i = 0; i < instructions.Length; i++)
             {
                 String[] components = instructions[i].Split(' ');
-                if (!int.TryParse(components[1], out var n))
+                if (!long.TryParse(components[1], out var n))
                 {
                     registers[components[1]] = 0;
                 }
             }
 
-            for (int i = 0; i < instructions.Length; i++)
+            for (long i = 0; i < instructions.Length; i++)
             {
                 String[] components = (instructions[i] + " 0").Split(' ');
-                int x = (registers.ContainsKey(components[1])) ? registers[components[1]] : int.Parse(components[1]);
-                int y = (registers.ContainsKey(components[2])) ? registers[components[2]] : int.Parse(components[2]);
+                long x = (registers.ContainsKey(components[1])) ? registers[components[1]] : long.Parse(components[1]);
+                long y = (registers.ContainsKey(components[2])) ? registers[components[2]] : long.Parse(components[2]);
 
                 if (components[0] == "snd")
                 {

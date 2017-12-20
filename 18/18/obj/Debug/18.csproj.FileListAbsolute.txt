@@ -5,3 +5,9 @@ C:\Users\eahscs\Documents\GitHub\Advent2017\18\18\obj\Debug\18.csprojResolveAsse
 C:\Users\eahscs\Documents\GitHub\Advent2017\18\18\obj\Debug\18.csproj.CoreCompileInputs.cache
 C:\Users\eahscs\Documents\GitHub\Advent2017\18\18\obj\Debug\18.exe
 C:\Users\eahscs\Documents\GitHub\Advent2017\18\18\obj\Debug\18.pdb
+C:\Users\Connor\Documents\GitHub\Advent2017\18\18\bin\Debug\18.exe.config
+C:\Users\Connor\Documents\GitHub\Advent2017\18\18\bin\Debug\18.exe
+C:\Users\Connor\Documents\GitHub\Advent2017\18\18\bin\Debug\18.pdb
+C:\Users\Connor\Documents\GitHub\Advent2017\18\18\obj\Debug\18.csprojResolveAssemblyReference.cache
+C:\Users\Connor\Documents\GitHub\Advent2017\18\18\obj\Debug\18.exe
+C:\Users\Connor\Documents\GitHub\Advent2017\18\18\obj\Debug\18.pdb
