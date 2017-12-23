@@ -14,7 +14,6 @@ namespace _12
             String[] input = File.ReadAllLines("../../Input.txt");
 
             bool flag = true;
-            int count = 0;
             List<Entry> programs = new List<Entry>();
             List<int> touchesZero = new List<int>() { 0 };
 
@@ -33,7 +32,6 @@ namespace _12
                     if (programs[i].number == 0)
                     {
                         touchesZero.AddRange(programs[i].children);
-                        count += programs[i].children.Count;
                         programs.RemoveAt(i);
                         i--;
                         continue;
@@ -42,8 +40,11 @@ namespace _12
                     if (programs[i].children.Intersect(touchesZero).ToList().Count != 0)
                     {
                         flag = true;
+
                         touchesZero.Add(programs[i].number);
-                        count++;
+                        touchesZero.AddRange(programs[i].children);
+                        touchesZero = touchesZero.Distinct().ToList();
+                        
                         programs.RemoveAt(i);
                         i--;
                     }
@@ -54,7 +55,7 @@ namespace _12
                 }
             }
             
-            Console.WriteLine(count);
+            Console.WriteLine(touchesZero.Count);
             Console.ReadLine();
         }
     }
