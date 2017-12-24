@@ -13,9 +13,9 @@ namespace _12
         {
             String[] input = File.ReadAllLines("../../Input.txt");
 
-            bool flag = true;
+            int groupCount = 0;
             List<Entry> programs = new List<Entry>();
-            List<int> touchesZero = new List<int>() { 0 };
+            List<int> group = new List<int>();
 
             foreach (String line in input)
             {
@@ -24,38 +24,38 @@ namespace _12
                 programs.Add(new Entry(programNum, children));
             }
 
-            while (flag)
+            while (programs.Count > 0)
             {
-                flag = false;
-                for (int i = 0; i < programs.Count; i++)
+                bool flag = true;
+                group.Add(programs[0].number);
+                programs.RemoveAt(0);
+                while (flag)
                 {
-                    if (programs[i].number == 0)
+                    flag = false;
+                    for (int i = 0; i < programs.Count; i++)
                     {
-                        touchesZero.AddRange(programs[i].children);
-                        programs.RemoveAt(i);
-                        i--;
-                        continue;
+                        if (programs[i].children.Intersect(group).ToList().Count != 0)
+                        {
+                            flag = true;
+
+                            group.Add(programs[i].number);
+                            group.AddRange(programs[i].children);
+                            group = group.Distinct().ToList();
+
+                            programs.RemoveAt(i);
+                            i--;
+                        }
                     }
-
-                    if (programs[i].children.Intersect(touchesZero).ToList().Count != 0)
+                    if (!flag)
                     {
-                        flag = true;
-
-                        touchesZero.Add(programs[i].number);
-                        touchesZero.AddRange(programs[i].children);
-                        touchesZero = touchesZero.Distinct().ToList();
-                        
-                        programs.RemoveAt(i);
-                        i--;
+                        break;
                     }
                 }
-                if (!flag)
-                {
-                    break;
-                }
+                group = new List<int>();
+                groupCount++;
             }
-            
-            Console.WriteLine(touchesZero.Count);
+
+            Console.WriteLine(groupCount);
             Console.ReadLine();
         }
     }
