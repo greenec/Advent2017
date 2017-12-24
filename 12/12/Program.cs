@@ -15,7 +15,6 @@ namespace _12
 
             int groupCount = 0;
             List<Entry> programs = new List<Entry>();
-            List<int> group = new List<int>();
 
             foreach (String line in input)
             {
@@ -26,6 +25,7 @@ namespace _12
 
             while (programs.Count > 0)
             {
+                List<int> group = new List<int>();
                 bool flag = true;
                 group.Add(programs[0].number);
                 programs.RemoveAt(0);
@@ -51,7 +51,6 @@ namespace _12
                         break;
                     }
                 }
-                group = new List<int>();
                 groupCount++;
             }
 
